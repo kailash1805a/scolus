@@ -1,0 +1,31 @@
+body { margin: 0px; padding: 0px;font-family: arial,sans-serif}
+$primary: #006699;
+
+h2 {
+	color: $primary;
+}
+
+.float-left{float:left;}
+.float-right{float:right;}
+.pointer-element { cursor:pointer;}
+
+header .info-bar-container {
+	padding: 5px 5px;
+	background-color: white;
+	border-bottom: 1px solid gray;
+	display: block;
+	height: 20px;
+}
+
+header .nav-bar-container {
+	padding: 5px 5px;
+	background-color: white;
+	border-bottom: 1px solid gray;
+	display: block;
+	height: 80px;
+}
+header .form-link a{ text-decoration: none; color: black !important;}
+header .info-bar-content { float: left;}
+
+header .info-bar-form a{ text-decoration: none;}
+header .padding-right-left { padding: 0px 5px;}
